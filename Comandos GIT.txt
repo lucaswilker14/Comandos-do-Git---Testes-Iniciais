@@ -1,0 +1,43 @@
+//comandos basicos
+
+git init - Aqui cria o primeiro repositorio git.
+
+git status - verificar cada status de cada arquivo. Se foi comitado ou nao, se foi modificado.
+
+git add nomearquivo.tipodoarquivo - Para passar esse arquivo para a "sala" de espera do git (staged).
+
+git commit -m "Um comentário sobre o arquivo" - Que vai da "sala" de espera para o diretorio no git.
+
+git diff - Mostra o que foi alterado no arquivo ( por linha - fica vermelho o que foi removido e verde o que foi add.).
+
+git diff --staged - Ver o que foi alterado no staged
+
+git log - Mostra um relatorio do que foi passado la no commit toda vez que foi commitado.
+
+git commit --amend -m "Comentario" - Da um merge no ultimo commit sem criar um novo. (JUNTA)!
+
+git checkout -- nomedodiretorio - Se você tiver alterado um arquivo e enviou atraves do commit, ele vai recuperar e resgatar a versao anterior
+
+git branch nomedonovobranch - Comando para criar um novo branch.
+
+git checkout nomedobranch - Vai para o branch novo e com os mesmos arquivos que o master (eh uma copia de segurança)
+
+git merge (nome do branch que você quer fazer o merge) - Faz o merge do que foi alterado no branch secundário com o principal.
+
+git branch -d (nome do branch) - DELETAR o branch. 
+
+=======================================================================================================================
+
+//comandos especiais
+
+git add . - Adiciona todos os arquivos/pastas/diretorios na "sala" de espera (staged)
+
+git add '*.tipoarquivo' - Adiciona todos os arquivo do tipo colocado para a stage.
+
+git commit -a -m "Comentario" - Esse '-a' faz com que ele pule o comando de mandar o arquivo da stage (faz auto.)
+
+git log --pretty=oneline - Mosta todos os seus commits.
+
+git reset HEAD nomedoarquivo - Isso daqui eh quando você da um git add . mas se arrepende de ter dado e quer trazer de volta da staged.
+
+git checkout -b nomedobranch - ja muda direto pro branch ja criando.
