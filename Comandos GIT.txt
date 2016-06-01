@@ -26,6 +26,7 @@ git merge (nome do branch que você quer fazer o merge) - Faz o merge do que foi 
 
 git branch -d (nome do branch) - DELETAR o branch. 
 
+git push origin master - Os arquivos que foram criados/modificados serão enviados para meu branch 'nome' e ficar salvo no gitHub
 =======================================================================================================================
 
 //comandos especiais
