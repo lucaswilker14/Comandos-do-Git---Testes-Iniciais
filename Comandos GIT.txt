@@ -1,7 +1,9 @@
 
+TESTANDO SOURCE TREE
+
 == LUCAS WILKER Moura Barbosa==
 
-//comandos basicos
+//COMANDOS BASICOS DO GIT
 
 git init - Aqui cria o primeiro repositorio git.
 
