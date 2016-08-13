@@ -1,4 +1,5 @@
-== LUCAS WILKER MOURA Barbosa==
+== Lucas Wilker Moura Barbosa==
+== Ciência da Computação ==
 
 //COMANDOS BASICOS DO GIT
 
